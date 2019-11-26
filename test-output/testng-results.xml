@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="248316" started-at="2019-11-26T11:00:29Z" finished-at="2019-11-26T11:04:38Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="248316" started-at="2019-11-26T11:00:29Z" finished-at="2019-11-26T11:04:38Z">
+      <class name="testCases.ChangePasswordTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:testCases.ChangePasswordTest@399f45b1]" name="init" is-config="true" duration-ms="0" started-at="2019-11-26T11:01:43Z" finished-at="2019-11-26T11:01:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:1, instance:testCases.ChangePasswordTest@399f45b1]" name="doLogin" duration-ms="82546" started-at="2019-11-26T11:01:43Z" data-provider="getData" finished-at="2019-11-26T11:03:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{NewPassword=Extra@1234, Username=9191919198, ExpectedResult=, Password=ExtraM123, Runmode=Y, ConfPassword=Extra@1234, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testCases.ChangePasswordTest@399f45b1]" name="quit" is-config="true" duration-ms="52" started-at="2019-11-26T11:03:06Z" finished-at="2019-11-26T11:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testCases.ChangePasswordTest -->
+      <class name="testCases.ForgotPasswordTest">
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:1, instance:testCases.ForgotPasswordTest@38c6f217]" name="doLogin" duration-ms="44989" started-at="2019-11-26T11:03:06Z" data-provider="getData" finished-at="2019-11-26T11:03:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{NewPassword=Extra@1234, ExpectedResult=, Runmode=Y, ConfPassword=Extra@1234, MobNumber=8800132115, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testCases.ForgotPasswordTest@38c6f217]" name="init" is-config="true" duration-ms="0" started-at="2019-11-26T11:03:06Z" finished-at="2019-11-26T11:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testCases.ForgotPasswordTest@38c6f217]" name="quit" is-config="true" duration-ms="30" started-at="2019-11-26T11:03:51Z" finished-at="2019-11-26T11:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testCases.ForgotPasswordTest -->
+      <class name="testCases.LogoutTest">
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:1, instance:testCases.LogoutTest@478190fc]" name="doLogin" duration-ms="46773" started-at="2019-11-26T11:03:51Z" data-provider="getData" finished-at="2019-11-26T11:04:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=8800132115, ExpectedResult=, Password=Extra@1234, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testCases.LogoutTest@478190fc]" name="init" is-config="true" duration-ms="0" started-at="2019-11-26T11:03:51Z" finished-at="2019-11-26T11:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testCases.LogoutTest@478190fc]" name="quit" is-config="true" duration-ms="34" started-at="2019-11-26T11:04:38Z" finished-at="2019-11-26T11:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testCases.LogoutTest -->
+      <class name="testCases.RegistrationTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:testCases.RegistrationTest@72d1ad2e]" name="init" is-config="true" duration-ms="122" started-at="2019-11-26T11:00:29Z" finished-at="2019-11-26T11:00:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="doregisteration(java.util.Hashtable)[pri:0, instance:testCases.RegistrationTest@72d1ad2e]" name="doregisteration" duration-ms="29700" started-at="2019-11-26T11:00:30Z" data-provider="getData" finished-at="2019-11-26T11:00:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Radhe Shyam Gupta, ExpectedResult=, Location=Noida, Runmode=Y, MobileNumber=9191919198, Age=22, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doregisteration -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testCases.RegistrationTest@72d1ad2e]" name="quit" is-config="true" duration-ms="227" started-at="2019-11-26T11:00:59Z" finished-at="2019-11-26T11:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testCases.RegistrationTest -->
+      <class name="testCases.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:testCases.LoginTest@2d7275fc]" name="init" is-config="true" duration-ms="0" started-at="2019-11-26T11:01:00Z" finished-at="2019-11-26T11:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:1, instance:testCases.LoginTest@2d7275fc]" name="doLogin" duration-ms="43608" started-at="2019-11-26T11:01:00Z" data-provider="getData" finished-at="2019-11-26T11:01:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=8800132115, ExpectedResult=, Password=Extra@1234, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testCases.LoginTest@2d7275fc]" name="quit" is-config="true" duration-ms="52" started-at="2019-11-26T11:01:43Z" finished-at="2019-11-26T11:01:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testCases.LoginTest -->
+    </test> <!-- Login -->
+  </suite> <!-- Suite -->
+</testng-results>
